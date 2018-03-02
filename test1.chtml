@@ -1,0 +1,11 @@
+<//- /home/wxjoy/EntradaWebUsac/test1.chtml -//>
+<chtml>
+	<encabezado>
+		<CJS ruta="/home/wxjoy/EntradaWebUsac/test3.cjs";><fin-Cjs>
+		<CJS ruta="/home/wxjoy/EntradaWebUsac/test1.cjs";><fin-Cjs>
+		<Titulo>test1<Fin-titulo>
+	<fin-encabezado>
+	<cuerpo>
+	
+	<fin-cuerpo>
+<fin-chtml>
