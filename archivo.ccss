@@ -1,0 +1,104 @@
+// estos estilos deberán estar dentro de grupos de estilo identificados por ID
+
+formulario_inicial [
+	id (panel_redireccion);
+	alineadO := derecha;
+	FondoElemento := "yelow";
+	borde := [3, "blue", true];
+
+	/*
+	estilos agregar para el primer panel
+	que contiene botones para rediccionar
+	*/
+	//inicio - panel 1
+	id (panel_redireccion);
+	alineadO := derecha;
+	FondoElemento := "yelow";
+	borde := [3, "blue", true];
+	//fin - panel 1
+	// inicio grupo de botones de rediccrecion
+	grUpO (boton_redireccion);
+	alineadO := centrado;
+	formaTO := Capital-T;
+	Letra := "Courier New";
+	TamTex := 12;
+	//fin grupo de botones de redireccion.
+	//inicio del panel 2
+	id (panel_2);
+	alineadO := centrado;
+	borde := [5, "blue", true];
+	FondoElemento := "green";
+	//fin del panel 2
+	//inicio del titulo doc
+	id (titulo_doc);
+	LetrA := "Times New Roman";
+	TamTex := 18.3;
+	forMAto := negrilla, Capital-t;
+	//fin - titulo doc
+	// inicio - panel 3
+	id (panel_3);
+	FondoElemento := "black";
+	//fin panel 3
+	//inicio - panel 4
+	id (panel_4);
+	alineadO := izquierda;
+	FondoElemento := "cian";
+	borde := [5, "blue", false];
+	//fin panel 4
+	//inicio titulo_formulario
+	ID (titulo_fomulario);
+	LetrA := "Centaur";
+	TamTex := 24;
+	forMAto := negrilla, Capital-t, cursiva;
+	ColorTExt := "blue";
+	//fin titulo_formulario
+	//inicio formulario 1
+	grupo (formulario_1);
+	LetrA := "Centaur";
+	TamTex := 14;
+	forMAto := Capital-t, cursiva;
+	ColorTExt := "blue";
+	//fin formulario 1
+	//inicio formulario 2
+	grupo (formulario_2);
+	LetrA := "Courier New";
+	TamTex := 12;
+	//fin formulario 2
+	//inicio - panel 5 interno
+	ID (panel_5);
+	alineadO := derecha;
+	FondoElemento := "cian";
+	borde := [5, "blue", false];
+	//fin panel 5 interno
+	//inicio grupo salida texto 1
+	grupo (salida_texto_1);
+	LetrA := "Arial";
+	TamTex := 14;
+	forMAto := negrilla;
+	ColorTExt := "blue";
+	//fin grupo salida texto 1
+	//inicio grupo salida texto 2
+	//inicio - panel 5 interno
+	ID (panel_5);
+	alineadO := derecha;
+	FondoElemento := "cian";
+	borde := [5, "blue", false];
+	//fin panel 5 interno
+	//inicio grupo salida texto 1
+	grupo (salida_texto_1);
+	LetrA := "Arial";
+	TamTex := 14;
+	forMAto := negrilla;
+	ColorTExt := "blue";
+	//fin grupo salida texto 1
+	//inicio grupo salida texto 2
+	grupo (salida_texto_2);
+	LetrA := "Courier New";
+	TamTex := 12;
+	ColorTExt := "purple";
+	//fin grupo salida texto 2
+	/**con este comentario pisa
+	*ahora ya no
+	*	cualquier cosa $%//()$%&!#$#$&%&//&(
+	*/
+]
