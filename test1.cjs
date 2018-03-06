@@ -90,5 +90,6 @@ llamando();
 
 imprimir(v2);
 
+mensaje("Hola mundo");
 'fin de archivo
 

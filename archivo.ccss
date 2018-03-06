@@ -1,9 +1,10 @@
 // estos estilos deberán estar dentro de grupos de estilo identificados por ID
-
+% &
+&
 formulario_inicial [
 	id (panel_redireccion);
 	alineadO := derecha;
-	FondoElemento := "yelow";
+	FondoElemento := "yellow";
 	borde := [3, "blue", true];
 
 	/*
@@ -13,7 +14,7 @@ formulario_inicial [
 	//inicio - panel 1
 	id (panel_redireccion);
 	alineadO := derecha;
-	FondoElemento := "yelow";
+	FondoElemento := "yellow";
 	borde := [3, "blue", true];
 	//fin - panel 1
 	// inicio grupo de botones de rediccrecion
@@ -42,7 +43,7 @@ formulario_inicial [
 	//inicio - panel 4
 	id (panel_4);
 	alineadO := izquierda;
-	FondoElemento := "cian";
+	FondoElemento := "cyan";
 	borde := [5, "blue", false];
 	//fin panel 4
 	//inicio titulo_formulario
@@ -67,7 +68,7 @@ formulario_inicial [
 	//inicio - panel 5 interno
 	ID (panel_5);
 	alineadO := derecha;
-	FondoElemento := "cian";
+	FondoElemento := "cyan";
 	borde := [5, "blue", false];
 	//fin panel 5 interno
 	//inicio grupo salida texto 1
@@ -81,7 +82,7 @@ formulario_inicial [
 	//inicio - panel 5 interno
 	ID (panel_5);
 	alineadO := derecha;
-	FondoElemento := "cian";
+	FondoElemento := "cyan";
 	borde := [5, "blue", false];
 	//fin panel 5 interno
 	//inicio grupo salida texto 1
